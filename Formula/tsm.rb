@@ -2,25 +2,25 @@ class Tsm < Formula
   desc "Terminal session manager with persistent sessions"
   homepage "https://github.com/adibhanna/tsm"
   license "MIT"
-  version "v0.6.5"
+  version "v0.6.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/adibhanna/tsm/releases/download/v0.6.5/tsm_v0.6.5_darwin_arm64.tar.gz"
-      sha256 "e4c47a66643b1c6b25a3148f5756c720ec7e326ac3f1a712f63897453cd55fb0"
+      url "https://github.com/adibhanna/tsm/releases/download/v0.6.6/tsm_v0.6.6_darwin_arm64.tar.gz"
+      sha256 "769636d4c22cdc950889ce26dba38b742c141e9abfcb4b44a24b7d7757851b96"
     else
-      url "https://github.com/adibhanna/tsm/releases/download/v0.6.5/tsm_v0.6.5_darwin_amd64.tar.gz"
-      sha256 "7af193cd92b1e182cdfd2d4886526a2e530cda3ab58c38c665d61856a3c9a012"
+      url "https://github.com/adibhanna/tsm/releases/download/v0.6.6/tsm_v0.6.6_darwin_amd64.tar.gz"
+      sha256 "98d2bb7276d6105d522c6281b74adf37b0cd02cb0b5c16c59f9bb5ee71934bd6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/adibhanna/tsm/releases/download/v0.6.5/tsm_v0.6.5_linux_arm64.tar.gz"
-      sha256 "206714b97825068c93b846252e8486d532b7244ac5be578bcd035958c99396cc"
+      url "https://github.com/adibhanna/tsm/releases/download/v0.6.6/tsm_v0.6.6_linux_arm64.tar.gz"
+      sha256 "902399e8cd3aa22b37be35f662ff1c9d76770c12e13b517397746e554c97f66d"
     else
-      url "https://github.com/adibhanna/tsm/releases/download/v0.6.5/tsm_v0.6.5_linux_amd64.tar.gz"
-      sha256 "84eeeba595f50a0325439b578c88758e4d4e511d3e1bdaaf191f1ccbb921a525"
+      url "https://github.com/adibhanna/tsm/releases/download/v0.6.6/tsm_v0.6.6_linux_amd64.tar.gz"
+      sha256 "63dbdf630288f999c8dddcfcf943c5deba18ef4d2eebae270d0dedaf6ebaf1a3"
     end
   end
 
